@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rtc/粗体.png</file>
+        <file>rtc/生成特定图片.png</file>
+        <file>rtc/生成特定图片1.png</file>
+    </qresource>
+</RCC>
