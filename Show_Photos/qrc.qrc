@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qrc/制作特殊照片1.png</file>
+        <file>qrc/为操作词配图片2.png</file>
+        <file>qrc/为操作词配图片3.png</file>
+        <file>qrc/为操作词配图片4.png</file>
+        <file>qrc/为操作词配图片5.png</file>
+        <file>qrc/为操作词配图片6.png</file>
+        <file>qrc/为操作配图片7.png</file>
+        <file>qrc/为操作配图片8.png</file>
+        <file>qrc/为操作配图片9.png</file>
+        <file>qrc/从文件夹取照片.png</file>
+        <file>qrc/从文件夹取照片1.png</file>
+        <file>qrc/生成真实照片.png</file>
+    </qresource>
+</RCC>
