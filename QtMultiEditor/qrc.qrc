@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qrc/MDI.png</file>
+        <file>qrc/多窗口模式.png</file>
+        <file>qrc/级联展开.png</file>
+        <file>qrc/平铺展开.png</file>
+        <file>qrc/widget.png</file>
+        <file>qrc/表格图标.png</file>
+        <file>qrc/表格大小.png</file>
+        <file>qrc/设置表头.png</file>
+        <file>qrc/取消.png</file>
+        <file>qrc/确定.png</file>
+        <file>qrc/风景图.png</file>
+        <file>qrc/20200424211346_ldswb.gif</file>
+        <file>qrc/qido.webp</file>
+        <file>qrc/876b3072df55bdf68798cd81ee9e6ac0.jpg</file>
+        <file>qrc/生成登录页面图标.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>586</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>多种窗口模式</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>870</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_1"/>
+   <addaction name="action_2"/>
+   <addaction name="action_3"/>
+   <addaction name="action_4"/>
+   <addaction name="separator"/>
+   <addaction name="action_5"/>
+   <addaction name="action_6"/>
+   <addaction name="action_7"/>
+   <addaction name="action_8"/>
+   <addaction name="separator"/>
+   <addaction name="action_11"/>
+   <addaction name="actionwigdet"/>
+   <addaction name="action_wigdet"/>
+   <addaction name="action"/>
+   <addaction name="action_13"/>
+   <addaction name="separator"/>
+   <addaction name="actionMDI"/>
+   <addaction name="action_9"/>
+   <addaction name="action_10"/>
+   <addaction name="separator"/>
+   <addaction name="action_14"/>
+  </widget>
+  <action name="action_1">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentNew"/>
+   </property>
+   <property name="text">
+    <string>新建</string>
+   </property>
+   <property name="toolTip">
+    <string>新建新的文件</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::FolderNew"/>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="toolTip">
+    <string>打开文件</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentSave"/>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="toolTip">
+    <string>保存文件</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::EditClear"/>
+   </property>
+   <property name="text">
+    <string>关闭全部</string>
+   </property>
+   <property name="toolTip">
+    <string>关闭全部文件</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::EditCut"/>
+   </property>
+   <property name="text">
+    <string>剪切</string>
+   </property>
+   <property name="toolTip">
+    <string>剪切选中内容</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::EditCopy"/>
+   </property>
+   <property name="text">
+    <string>复制</string>
+   </property>
+   <property name="toolTip">
+    <string>复制选中内容</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::EditPaste"/>
+   </property>
+   <property name="text">
+    <string>贴贴</string>
+   </property>
+   <property name="toolTip">
+    <string>复制贴贴内容</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::MailMessageNew"/>
+   </property>
+   <property name="text">
+    <string>字体设置</string>
+   </property>
+   <property name="toolTip">
+    <string>设置字体内容字体</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionMDI">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/MDI.png</normaloff>:/qrc/MDI.png</iconset>
+   </property>
+   <property name="text">
+    <string>MDI模式</string>
+   </property>
+   <property name="toolTip">
+    <string>主窗口开启MDI模式</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/级联展开.png</normaloff>:/qrc/级联展开.png</iconset>
+   </property>
+   <property name="text">
+    <string>级联展开</string>
+   </property>
+   <property name="toolTip">
+    <string>以互联网模式展开文件</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/平铺展开.png</normaloff>:/qrc/平铺展开.png</iconset>
+   </property>
+   <property name="text">
+    <string>平铺展开</string>
+   </property>
+   <property name="toolTip">
+    <string>平铺展开</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/多窗口模式.png</normaloff>:/qrc/多窗口模式.png</iconset>
+   </property>
+   <property name="text">
+    <string>多窗口模式</string>
+   </property>
+   <property name="toolTip">
+    <string>多窗口模式</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionwigdet">
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/widget.png</normaloff>:/qrc/widget.png</iconset>
+   </property>
+   <property name="text">
+    <string>wigdet</string>
+   </property>
+   <property name="toolTip">
+    <string>wigdet窗口</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_wigdet">
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/widget.png</normaloff>:/qrc/widget.png</iconset>
+   </property>
+   <property name="text">
+    <string>独立wigdet窗口</string>
+   </property>
+   <property name="toolTip">
+    <string>独立wigdet窗口</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/表格图标.png</normaloff>:/qrc/表格图标.png</iconset>
+   </property>
+   <property name="text">
+    <string>表格</string>
+   </property>
+   <property name="toolTip">
+    <string>表格窗口</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/表格图标.png</normaloff>:/qrc/表格图标.png</iconset>
+   </property>
+   <property name="text">
+    <string>独立表格窗口</string>
+   </property>
+   <property name="toolTip">
+    <string>独立表格窗口</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::SystemLogOut"/>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出程序</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="qrc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>action_14</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>434</x>
+     <y>292</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
