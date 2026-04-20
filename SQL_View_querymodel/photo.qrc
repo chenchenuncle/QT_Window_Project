@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Person/OIP-C (1).jpg</file>
+        <file>Person/OIP-C.jpg</file>
+        <file>Person/R-C.jpg</file>
+        <file>Person/true.png</file>
+        <file>Person/35023618_201909229102_2.jpg</file>
+    </qresource>
+</RCC>

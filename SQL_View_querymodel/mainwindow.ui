@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>11</y>
+      <width>341</width>
+      <height>301</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="open_sql"/>
+   <addaction name="separator"/>
+   <addaction name="action_first"/>
+   <addaction name="action_last"/>
+   <addaction name="action_next"/>
+   <addaction name="action_at"/>
+   <addaction name="separator"/>
+   <addaction name="action_Insert"/>
+   <addaction name="action_Insert_2"/>
+   <addaction name="action_rome"/>
+   <addaction name="separator"/>
+   <addaction name="action_salary"/>
+   <addaction name="action_cloce"/>
+  </widget>
+  <action name="open_sql">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::FolderOpen"/>
+   </property>
+   <property name="text">
+    <string>打开数据库</string>
+   </property>
+   <property name="toolTip">
+    <string>选择数据库文件打开</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_first">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="media-skip-backward"/>
+   </property>
+   <property name="text">
+    <string>首记录</string>
+   </property>
+   <property name="toolTip">
+    <string>首条记录</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_last">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="media-seek-backward"/>
+   </property>
+   <property name="text">
+    <string>前记录</string>
+   </property>
+   <property name="toolTip">
+    <string>上一条记录</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_next">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="media-seek-forward"/>
+   </property>
+   <property name="text">
+    <string>后记录</string>
+   </property>
+   <property name="toolTip">
+    <string>后一条记录</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_at">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="media-skip-forward"/>
+   </property>
+   <property name="text">
+    <string>尾记录</string>
+   </property>
+   <property name="toolTip">
+    <string>最后一条记录</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_Insert">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/dsd.png</normaloff>:/qrc/dsd.png</iconset>
+   </property>
+   <property name="text">
+    <string>插入信息</string>
+   </property>
+   <property name="toolTip">
+    <string>插入个人信息</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_Insert_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/OIP-C.jpg</normaloff>:/qrc/OIP-C.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>编辑记录</string>
+   </property>
+   <property name="toolTip">
+    <string>编辑个人信息</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_rome">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/OIP-C (1).jpg</normaloff>:/qrc/OIP-C (1).jpg</iconset>
+   </property>
+   <property name="text">
+    <string>删除记录</string>
+   </property>
+   <property name="toolTip">
+    <string>删除选中的个人信息</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_salary">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/up.bmp</normaloff>:/qrc/up.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>涨工资</string>
+   </property>
+   <property name="toolTip">
+    <string>每个员工都涨工资500</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_cloce">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/qrc/132.bmp</normaloff>:/qrc/132.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出程序</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="qrc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>action_cloce</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
