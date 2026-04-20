@@ -143,18 +143,8 @@ connect(itemmodel, &QItemSelectionModel::currentRowChanged,
 3. **模型未排序**：在查询语句中添加 `ORDER BY` 子句
 4. **图片显示问题**：确保正确处理二进制数据的读取和写入
 
-## 许可证
+## 截图
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/334415bc-4a7e-4fca-99df-c8f060ca9993" />
 
-本项目采用 MIT 许可证 - 详见 LICENSE 文件
-
-## 贡献
-
-欢迎提交 Issue 和 Pull Request 来改进这个项目！
-
-## 联系方式
-
-如有问题或建议，请通过 GitHub Issues 与我联系。
-
----
 
 *项目开发日期：2026年3月*
