@@ -1,0 +1,4 @@
+if (!dbtablemodel->select()) {
+    QMessageBox::critical(this, "错误", "无法加载数据：" + dbtablemodel->lastError().text());
+    return;
+}

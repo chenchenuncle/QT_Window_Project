@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qrc/00.JPG</file>
+        <file>qrc/1baca1340b333ba75f4e9446412469b9.jpg</file>
+        <file>qrc/103.bmp</file>
+        <file>qrc/132.bmp</file>
+        <file>qrc/324.bmp</file>
+        <file>qrc/OIP-C.webp</file>
+        <file>qrc/save1.bmp</file>
+        <file>qrc/ubdo.bmp</file>
+        <file>qrc/up.bmp</file>
+        <file>qrc/316.bmp</file>
+        <file>qrc/a892a72d05b2ba85.webp</file>
+        <file>qrc/dsd.png</file>
+    </qresource>
+</RCC>

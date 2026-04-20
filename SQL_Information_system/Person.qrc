@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Person/20210619090151_cf7d6.jpg</file>
+        <file>Person/OIP-C (2).webp</file>
+        <file>Person/OIP-C (3).webp</file>
+        <file>Person/OIP-C (4).webp</file>
+        <file>Person/OIP-C (5).webp</file>
+        <file>Person/OIP-C (6).webp</file>
+        <file>Person/OIP-C (7).webp</file>
+        <file>Person/OIP-C.webp</file>
+        <file>Person/R-C.jpg</file>
+    </qresource>
+</RCC>
