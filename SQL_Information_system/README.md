@@ -145,10 +145,6 @@ SQL_Information_system/
 ## 截图
 <img width="1908" height="1006" alt="image" src="https://github.com/user-attachments/assets/77cf5277-ba7a-4ea5-9540-f2bbf7f29eca" />
 
-
-
----
-
-**作者**：Qt开发者
-**版本**：1.0.0
-**最后更新**：2026-04-20
+**作者**：https://github.com/chenchenuncle
+**版本**：无版本
+**完善项目**：2026-03-20
