@@ -1,6 +1,4 @@
-# SQL信息系统 (SQL Information System)
-
-一个基于Qt和SQLite的员工信息管理系统，提供直观的用户界面和强大的数据管理功能。
+## 一个基于Qt和SQLite的员工信息管理系统，提供直观的用户界面和强大的数据管理功能。
 
 ## 项目概述
 
@@ -144,21 +142,10 @@ SQL_Information_system/
 - 编辑数据时，确保在点击"保存"按钮前完成所有编辑操作
 - 系统支持基本的数据验证，但请确保输入数据的有效性
 
-## 未来改进
+## 截图
+<img width="1908" height="1006" alt="image" src="https://github.com/user-attachments/assets/77cf5277-ba7a-4ea5-9540-f2bbf7f29eca" />
 
-- 添加更多数据验证和错误处理
-- 实现数据导出功能（如导出为Excel）
-- 添加用户权限管理
-- 优化大数据量的处理性能
-- 支持更多数据库类型
 
-## 许可证
-
-本项目采用MIT许可证，详情请参阅LICENSE文件。
-
-## 贡献
-
-欢迎提交Issue和Pull Request来改进这个项目！
 
 ---
 
